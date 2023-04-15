@@ -37,3 +37,8 @@ curl $(minikube -p lab01 ip):8080
 ## Working with the Container registry[https://ghcr.io]
 * https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-container-registry
 ## [Creating a personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
+
+## Note
+* [Make sure the package is public](https://docs.github.com/en/packages/learn-github-packages/configuring-a-packages-access-control-and-visibility#configuring-visibility-of-container-images-for-your-personal-account)
+* [Make sure that your workflow has write access to your package](https://docs.github.com/en/packages/learn-github-packages/configuring-a-packages-access-control-and-visibility#ensuring-workflow-access-to-your-package)
+* [Make sure that your repository is linked to your package](https://docs.github.com/en/packages/learn-github-packages/connecting-a-repository-to-a-package#connecting-a-repository-to-a-user-owned-package-on-github)
