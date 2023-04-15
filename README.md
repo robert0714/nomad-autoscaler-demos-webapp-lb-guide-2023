@@ -16,7 +16,6 @@ docker run  --env PORT=8080 -p 8080:8080 robert0714/demo-webapp-lb-guide
 minikube -p lab01 ip
 
 curl $(minikube -p lab01 ip):8080
-
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
 100    31  100    31    0     0  12104      0 --:--:-- --:--:-- --:--:-- 15500Welcome! You are on node :8080
