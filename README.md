@@ -34,6 +34,9 @@ curl $(minikube -p lab01 ip):8080
 [learn_on_demand_batch]: https://learn.hashicorp.com/tutorials/nomad/horizontal-cluster-scaling-on-demand-batch?in=nomad/autoscaler
 [nomad_autoscaler_repo]: https://github.com/hashicorp/nomad-autoscaler
 
+# Github Actions Setting
+![actions_setting.](./actions_setting.png)  
+
 ## Working with the Container registry[https://ghcr.io]
 * https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-container-registry
 ## [Creating a personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
